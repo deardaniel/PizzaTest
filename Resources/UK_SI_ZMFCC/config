@@ -1,0 +1,26 @@
+# Example config for this British English model set 
+# WIn = n-mix word internal tied triphone trained on WSJCAM0
+#       each model set has decision tree built in to allow any
+#       triphone to be synthesised
+
+CEPLIFTER = 22
+HREC:FORCEOUT = T
+NUMCEPS = 12
+NUMCHANS = 26
+PREEMCOEF = 0.97
+SILFLOOR = 50.0
+SOURCEFORMAT = NIST
+SOURCERATE = 625
+TARGETKIND = MFCC_0_D_A_Z
+TARGETRATE = 100000.0
+USEHAMMING = T
+USEPOWER = T
+WINDOWSIZE = 250000.0
+
+# paths need to be set properly in actual application
+HMMSET: HMMLIST = "../Resources/UK_SI_ZMFCC/hmmlist"
+HMMSET: MMF0 = "../Resources/UK_SI_ZMFCC/WI4"
+HPARM: CMNDEFAULT = "../Resources/UK_SI_ZMFCC/cepmean"
+HPARM: CMNTCONST = 0.995
+HPARM:  CMNRESETONSTOP = F
+HPARM:  CMNMINFRAMES = 12

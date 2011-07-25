@@ -1,0 +1,82 @@
+#!/usr/bin/bash
+
+if [ $# -lt 1 ]; then
+   echo "usage:  arun [-r][-g ngram] network"
+   echo ""
+   echo "examples:"
+   echo "        arun bg        (run avite with bigram network)"
+   echo "        arun -r wl     (run release version with simple word loop)"
+   echo "        arun -g bg wl  (run avite with word loop and bigram lm)"
+   echo "        arun -g tg wl  (run avite with word loop and trigram lm)"
+   echo ""
+   echo "note that the default config file is avite.cfg"
+   echo "when -g is specified, avite_ng.cfg is used instead"
+   echo ""
+   exit
+fi
+
+hashr=1
+ans=`which HResults 2>&1 | cut -f2-4 -d' '`
+if [ "$ans" = "Command not found." ]; then
+   echo ""
+   echo "WARNING: HResults command not installed."; 
+   echo "Suggest you install HTK and ensure the tools are in your search path";
+   echo ""
+   hashr=0
+fi
+
+ngramfile=''
+configfile='avite.cfg'
+
+cmd='../Debug/AVite.exe'
+if [ "$1" = "-r" ]; then
+   shift
+   cmd='../Release/AVite.exe'
+fi
+if [ ! -f $cmd ]; then
+   cmd='../AVite'
+   if [ ! -f $cmd ]; then
+       echo "error:  executable $cmd does not exist"
+       exit
+   fi
+fi
+
+if [ "$1" = "-g" ]; then
+   shift
+   ngramfile="$1"
+   shift
+   if [ ! -f $ngramfile ]; then
+      echo "error:  $ngramfile ngram file does not exist"
+      exit
+   fi
+   ngramfile="-g $ngramfile"
+   configfile="avite_ng.cfg"
+fi
+
+network=$1.net
+
+if [ ! -f $network ]; then
+  echo "error:  $network network file does not exist"
+  exit
+fi
+
+rsc=../../../Resources
+dict=$rsc/beep.dct
+mmf0=$rsc/UK_SI_ZMFCC/WI4
+mmf1=$rsc/UK_SI_ZMFCC/BGHMM2
+hlist=$rsc/UK_SI_ZMFCC/hmmlistbg
+ref=words.mlf
+
+echo "Running $cmd"
+rm -f reco.mlf
+$cmd -A -T 1 -C $configfile -o F -w $network $ngramfile -i reco.mlf -S scpfile -H $mmf0 -H $mmf1 $dict $hlist
+if [ -f reco.mlf ]; then
+  if [ $hashr = 1 ]; then
+    echo; echo "Results"
+    HResults -t -e '???' '!SENT_START' -e '???' '!SENT_END' -e '???' '<S>' -e '???' '</S>' -I $ref $hlist reco.mlf
+  fi
+fi
+
+
+
+

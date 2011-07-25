@@ -1,0 +1,54 @@
+SUBLAT=confirm
+N=3  L=2
+I=0    W=!NULL
+I=1    W=!NULL
+I=2    W=YES
+J=0  S=0  E=2
+J=1  S=2  E=1
+.
+SUBLAT=preamble
+N=7  L=7
+I=0    W=!NULL
+I=1    W=!NULL
+I=2    W=!NULL
+I=3    W=GIVE
+I=4    W=ME
+I=5    W=LIKE
+I=6    W=ID
+J=0  S=0  E=3
+J=1  S=0  E=2
+J=2  S=2  E=6
+J=3  S=6  E=5
+J=4  S=5  E=1
+J=5  S=3  E=4
+J=6  S=4  E=1
+.
+SUBLAT=postamble
+N=3  L=2
+I=0    W=!NULL
+I=1    W=!NULL
+I=2    W=PLEASE
+J=0  S=0  E=2
+J=1  S=2  E=1
+.
+SUBLAT=command
+N=5 L=6
+I=0    W=!NULL
+I=1    W=!NULL
+I=2    W=HELP
+I=3    W=CANCEL
+I=4    W=REPEAT
+J=0  S=0  E=2
+J=1  S=0  E=3
+J=2  S=0  E=4
+J=3  S=2  E=1
+J=4  S=3  E=1
+J=5  S=4  E=1
+.
+# Main toplevel network
+N=3   L=2
+I=0    W=!NULL
+I=1    W=!NULL
+I=2    L=command s=command
+J=0  S=0  E=2
+J=1  S=2  E=1

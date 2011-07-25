@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'ATK' target in the 'ATK' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+	#import <CoreFoundation/CoreFoundation.h>
+    #import <UIKit/UIKit.h>
+#endif
