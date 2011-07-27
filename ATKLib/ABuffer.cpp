@@ -58,9 +58,9 @@ void ABuffer::PutPacket(APacket p)
 {
   assert(filter == AnyPacket || p.GetKind() == filter);
   
-  for (ABufferCallbackList::iterator c = callbackList.begin(); c != callbackList.end(); c++) {
-    ABufferCallback *callback = *c;
-    callback->ABufferReceivedPacket(*this, p);
+  for (ABufferListenerList::iterator l = listenerList.begin(); l != listenerList.end(); l++) {
+    ABufferListener *listener = *l;
+    listener->ABufferReceivedPacket(*this, p);
   }
   
   HEnterSection(lock);
@@ -174,14 +174,14 @@ void ABuffer::SendBufferEvents()
   }
 }
 
-void ABuffer::AddCallback(ABufferCallback *callback)
+void ABuffer::AddListener(ABufferListener *listener)
 {
-    callbackList.push_back(callback);
+    listenerList.push_back(listener);
 }
 
-void ABuffer::RemoveCallback(ABufferCallback *callback)
+void ABuffer::RemoveListener(ABufferListener *listener)
 {
-    callbackList.remove(callback);
+    listenerList.remove(listener);
 }
 
 string ABuffer::GetName()

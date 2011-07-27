@@ -31,15 +31,15 @@ char * ssds_version="!HVER!SSDS: 1.6.0 [SJY 01/06/07]";
 #include "ACode.h"
 #include "ARec.h"
 
-class SSDSBufferCallback : public ABufferCallback {
+class SSDSBufferListener : public ABufferListener {
    void ABufferReceivedPacket(ABuffer &buffer, APacket &packet);
 
 };
 
-void SSDSBufferCallback::ABufferReceivedPacket(ABuffer &buffer, APacket &packet)
+void SSDSBufferListener::ABufferReceivedPacket(ABuffer &buffer, APacket &packet)
 {
-   printf("Received packet: %s.\n", buffer.GetName().c_str());
-   packet.Show();
+//   printf("Received packet: %s.\n", buffer.GetName().c_str());
+//   packet.Show();
 }
 
 
@@ -49,7 +49,7 @@ void SSDSBufferCallback::ABufferReceivedPacket(ABuffer &buffer, APacket &packet)
 ABuffer *auChan;   // carries audio from source to Coder
 ABuffer *feChan;   // carries feat vecs from Coder to Recogniser
 ABuffer *ansChan;  // carries answers from Rec back to Application
-ABufferCallback *bufferCallback;
+ABufferListener *bufferListener;
 // Active components (threads)
 ASource *ain;      // audio source
 ACode *acode;      // coder
@@ -309,8 +309,8 @@ void BuildRecogniser()
    feChan = new ABuffer("feChan");
    ansChan = new ABuffer("ansChan");
 
-   bufferCallback = new SSDSBufferCallback();
-   feChan->AddCallback(bufferCallback);
+   bufferListener = new SSDSBufferListener();
+   feChan->AddListener(bufferListener);
   
    // create a resource manager
    rman = new ARMan;
@@ -340,7 +340,9 @@ void BuildRecogniser()
 void StartRecogniser()
 {
    // Start up each component thread
+#ifndef __APPLE__
    amon->Start();
+#endif
    ain->Start();
    // uncomment following if completely hands-free
    ain->SendMessage("start()");
@@ -444,9 +446,8 @@ int main(int argc, char *argv[])
          printf("  %d. %s\n",i,HRErrorGetMess(i));
    }
 	CFRelease(confPath);
-#ifndef __APPLE__
+
    return 0;
-#endif
 }
 
 // ------------------------- End SSDS.cpp -----------------------------

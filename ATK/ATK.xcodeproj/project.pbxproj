@@ -3,10 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653AEEF013DDE9C9007D7795 /* ABuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEA313DDE9A8007D7795 /* ABuffer.h */; };
+		653AEEF113DDE9C9007D7795 /* ACode.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEA413DDE9A8007D7795 /* ACode.h */; };
+		653AEEF213DDE9C9007D7795 /* AComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEA513DDE9A8007D7795 /* AComponent.h */; };
+		653AEEF313DDE9C9007D7795 /* ADict.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEA613DDE9A8007D7795 /* ADict.h */; };
+		653AEEF413DDE9C9007D7795 /* AGram.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEA713DDE9A8007D7795 /* AGram.h */; };
+		653AEEF513DDE9C9007D7795 /* AHmms.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEA813DDE9A8007D7795 /* AHmms.h */; };
+		653AEEF613DDE9C9007D7795 /* AHTK.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEA913DDE9A8007D7795 /* AHTK.h */; };
+		653AEEF713DDE9C9007D7795 /* AIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEAA13DDE9A8007D7795 /* AIO.h */; };
+		653AEEF813DDE9C9007D7795 /* ALog.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEAB13DDE9A8007D7795 /* ALog.h */; };
+		653AEEF913DDE9C9007D7795 /* AMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEAC13DDE9A8007D7795 /* AMonitor.h */; };
+		653AEEFA13DDE9C9007D7795 /* ANGram.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEAD13DDE9A8007D7795 /* ANGram.h */; };
+		653AEEFB13DDE9C9007D7795 /* APacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEAE13DDE9A8007D7795 /* APacket.h */; };
+		653AEEFC13DDE9C9007D7795 /* ARec.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEAF13DDE9A8007D7795 /* ARec.h */; };
+		653AEEFD13DDE9C9007D7795 /* AResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEB013DDE9A8007D7795 /* AResource.h */; };
+		653AEEFE13DDE9C9007D7795 /* ARMan.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEB113DDE9A8007D7795 /* ARMan.h */; };
+		653AEEFF13DDE9C9007D7795 /* ASource.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEB213DDE9A8007D7795 /* ASource.h */; };
+		653AEF0013DDE9C9007D7795 /* ASplash.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEB313DDE9A8007D7795 /* ASplash.h */; };
+		653AEF0113DDE9C9007D7795 /* ASyn.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEB413DDE9A8007D7795 /* ASyn.h */; };
+		653AEF0213DDE9C9007D7795 /* ATee.h in Headers */ = {isa = PBXBuildFile; fileRef = 653AEEB513DDE9A8007D7795 /* ATee.h */; };
+		653AEF0313DDE9D1007D7795 /* ABuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEB613DDE9A8007D7795 /* ABuffer.cpp */; };
+		653AEF0413DDE9D1007D7795 /* ACode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEB713DDE9A8007D7795 /* ACode.cpp */; };
+		653AEF0513DDE9D1007D7795 /* AComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEB813DDE9A8007D7795 /* AComponent.cpp */; };
+		653AEF0613DDE9D1007D7795 /* ADict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEB913DDE9A8007D7795 /* ADict.cpp */; };
+		653AEF0713DDE9D1007D7795 /* AGram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEBA13DDE9A8007D7795 /* AGram.cpp */; };
+		653AEF0813DDE9D1007D7795 /* AHmms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEBB13DDE9A8007D7795 /* AHmms.cpp */; };
+		653AEF0913DDE9D1007D7795 /* AHTK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEBC13DDE9A8007D7795 /* AHTK.cpp */; };
+		653AEF0A13DDE9D1007D7795 /* AIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEBD13DDE9A8007D7795 /* AIO.cpp */; };
+		653AEF0B13DDE9D1007D7795 /* ALog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEBE13DDE9A8007D7795 /* ALog.cpp */; };
+		653AEF0C13DDE9D1007D7795 /* AMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEBF13DDE9A8007D7795 /* AMonitor.cpp */; };
+		653AEF0D13DDE9D1007D7795 /* ANGram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC013DDE9A8007D7795 /* ANGram.cpp */; };
+		653AEF0E13DDE9D1007D7795 /* APacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC113DDE9A8007D7795 /* APacket.cpp */; };
+		653AEF0F13DDE9D1007D7795 /* ARec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC213DDE9A8007D7795 /* ARec.cpp */; };
+		653AEF1013DDE9D1007D7795 /* AResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC313DDE9A8007D7795 /* AResource.cpp */; };
+		653AEF1113DDE9D1007D7795 /* ARMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC413DDE9A8007D7795 /* ARMan.cpp */; };
+		653AEF1213DDE9D1007D7795 /* ASource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC513DDE9A8007D7795 /* ASource.cpp */; };
+		653AEF1313DDE9D1007D7795 /* ASplash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC613DDE9A8007D7795 /* ASplash.cpp */; };
+		653AEF1413DDE9D1007D7795 /* ASyn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC713DDE9A8007D7795 /* ASyn.cpp */; };
+		653AEF1513DDE9D1007D7795 /* ATee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AEEC813DDE9A8007D7795 /* ATee.cpp */; };
 		659B690713CEE0BB0088B9D9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		659B690813CEE0BB0088B9D9 /* ATKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ATKViewController.xib */; };
 		659B690A13CEE0BB0088B9D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -66,25 +104,6 @@
 		65A100A813CC9C8A00A0F59F /* HVQ.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1002313CC9BE400A0F59F /* HVQ.c */; };
 		65A100B413CC9EEE00A0F59F /* libm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A100B313CC9EEE00A0F59F /* libm.dylib */; };
 		65A100D113CC9FFD00A0F59F /* HGraf.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1FFDE13CC9BE300A0F59F /* HGraf.c */; };
-		65A102C813CCA16E00A0F59F /* ATee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1027613CCA14300A0F59F /* ATee.cpp */; };
-		65A102C913CCA16E00A0F59F /* ASyn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1027813CCA14300A0F59F /* ASyn.cpp */; };
-		65A102CA13CCA16E00A0F59F /* ASplash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1027A13CCA14300A0F59F /* ASplash.cpp */; };
-		65A102CB13CCA16E00A0F59F /* ASource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1027C13CCA14300A0F59F /* ASource.cpp */; };
-		65A102CC13CCA16E00A0F59F /* ARMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1027E13CCA14300A0F59F /* ARMan.cpp */; };
-		65A102CD13CCA16E00A0F59F /* AResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028013CCA14300A0F59F /* AResource.cpp */; };
-		65A102CE13CCA16E00A0F59F /* ARec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028213CCA14300A0F59F /* ARec.cpp */; };
-		65A102CF13CCA16E00A0F59F /* APacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028413CCA14300A0F59F /* APacket.cpp */; };
-		65A102D013CCA16E00A0F59F /* ANGram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028613CCA14300A0F59F /* ANGram.cpp */; };
-		65A102D113CCA16E00A0F59F /* AMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028813CCA14300A0F59F /* AMonitor.cpp */; };
-		65A102D213CCA16E00A0F59F /* ALog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028A13CCA14300A0F59F /* ALog.cpp */; };
-		65A102D313CCA16E00A0F59F /* AIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028C13CCA14300A0F59F /* AIO.cpp */; };
-		65A102D413CCA16E00A0F59F /* AHTK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1028E13CCA14300A0F59F /* AHTK.cpp */; };
-		65A102D513CCA16E00A0F59F /* AHmms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1029013CCA14300A0F59F /* AHmms.cpp */; };
-		65A102D613CCA16E00A0F59F /* AGram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1029213CCA14300A0F59F /* AGram.cpp */; };
-		65A102D713CCA16E00A0F59F /* ADict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1029413CCA14300A0F59F /* ADict.cpp */; };
-		65A102D813CCA16E00A0F59F /* AComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1029613CCA14300A0F59F /* AComponent.cpp */; };
-		65A102D913CCA16E00A0F59F /* ACode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1029813CCA14300A0F59F /* ACode.cpp */; };
-		65A102DA13CCA16E00A0F59F /* ABuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1029A13CCA14300A0F59F /* ABuffer.cpp */; };
 		65A102F313CCA2FB00A0F59F /* libm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A100B313CC9EEE00A0F59F /* libm.dylib */; };
 		65A1041113CCA51E00A0F59F /* cmu6_lts_rules.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1033613CCA42300A0F59F /* cmu6_lts_rules.c */; };
 		65A1041213CCA51F00A0F59F /* cmu_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1033913CCA42300A0F59F /* cmu_lex.c */; };
@@ -153,7 +172,6 @@
 		65A104CB13CCA69D00A0F59F /* us_text.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1032E13CCA42300A0F59F /* us_text.c */; };
 		65A104CC13CCA69D00A0F59F /* usenglish.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1033113CCA42300A0F59F /* usenglish.c */; };
 		65A104CD13CCA69D00A0F59F /* us_durz_cart.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1030D13CCA42300A0F59F /* us_durz_cart.c */; };
-		65A104EA13CCA6EB00A0F59F /* SSDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A104E013CCA6EA00A0F59F /* SSDS.cpp */; };
 		65A1055913CCA91600A0F59F /* libHTKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A1007113CC9C2E00A0F59F /* libHTKLib.a */; };
 		65A1057E13CCAB5300A0F59F /* cmu_us_kal16.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1034713CCA42300A0F59F /* cmu_us_kal16.c */; };
 		65A1057F13CCAB5500A0F59F /* cmu_us_kal16_diphone.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A1034B13CCA42300A0F59F /* cmu_us_kal16_diphone.c */; };
@@ -228,6 +246,45 @@
 		6517370213CD56170085E2CA /* pizza.dict */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = pizza.dict; path = Test/pizza.dict; sourceTree = "<group>"; };
 		6517370313CD56170085E2CA /* ssds.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ssds.cfg; path = Test/ssds.cfg; sourceTree = "<group>"; };
 		6517370413CD56170085E2CA /* topping.net */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = topping.net; path = Test/topping.net; sourceTree = "<group>"; };
+		653AEEA313DDE9A8007D7795 /* ABuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABuffer.h; sourceTree = "<group>"; };
+		653AEEA413DDE9A8007D7795 /* ACode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACode.h; sourceTree = "<group>"; };
+		653AEEA513DDE9A8007D7795 /* AComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AComponent.h; sourceTree = "<group>"; };
+		653AEEA613DDE9A8007D7795 /* ADict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADict.h; sourceTree = "<group>"; };
+		653AEEA713DDE9A8007D7795 /* AGram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGram.h; sourceTree = "<group>"; };
+		653AEEA813DDE9A8007D7795 /* AHmms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHmms.h; sourceTree = "<group>"; };
+		653AEEA913DDE9A8007D7795 /* AHTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHTK.h; sourceTree = "<group>"; };
+		653AEEAA13DDE9A8007D7795 /* AIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIO.h; sourceTree = "<group>"; };
+		653AEEAB13DDE9A8007D7795 /* ALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALog.h; sourceTree = "<group>"; };
+		653AEEAC13DDE9A8007D7795 /* AMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMonitor.h; sourceTree = "<group>"; };
+		653AEEAD13DDE9A8007D7795 /* ANGram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGram.h; sourceTree = "<group>"; };
+		653AEEAE13DDE9A8007D7795 /* APacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APacket.h; sourceTree = "<group>"; };
+		653AEEAF13DDE9A8007D7795 /* ARec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARec.h; sourceTree = "<group>"; };
+		653AEEB013DDE9A8007D7795 /* AResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AResource.h; sourceTree = "<group>"; };
+		653AEEB113DDE9A8007D7795 /* ARMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARMan.h; sourceTree = "<group>"; };
+		653AEEB213DDE9A8007D7795 /* ASource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASource.h; sourceTree = "<group>"; };
+		653AEEB313DDE9A8007D7795 /* ASplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASplash.h; sourceTree = "<group>"; };
+		653AEEB413DDE9A8007D7795 /* ASyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASyn.h; sourceTree = "<group>"; };
+		653AEEB513DDE9A8007D7795 /* ATee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATee.h; sourceTree = "<group>"; };
+		653AEEB613DDE9A8007D7795 /* ABuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABuffer.cpp; sourceTree = "<group>"; };
+		653AEEB713DDE9A8007D7795 /* ACode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ACode.cpp; sourceTree = "<group>"; };
+		653AEEB813DDE9A8007D7795 /* AComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AComponent.cpp; sourceTree = "<group>"; };
+		653AEEB913DDE9A8007D7795 /* ADict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADict.cpp; sourceTree = "<group>"; };
+		653AEEBA13DDE9A8007D7795 /* AGram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AGram.cpp; sourceTree = "<group>"; };
+		653AEEBB13DDE9A8007D7795 /* AHmms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AHmms.cpp; sourceTree = "<group>"; };
+		653AEEBC13DDE9A8007D7795 /* AHTK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AHTK.cpp; sourceTree = "<group>"; };
+		653AEEBD13DDE9A8007D7795 /* AIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AIO.cpp; sourceTree = "<group>"; };
+		653AEEBE13DDE9A8007D7795 /* ALog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ALog.cpp; sourceTree = "<group>"; };
+		653AEEBF13DDE9A8007D7795 /* AMonitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AMonitor.cpp; sourceTree = "<group>"; };
+		653AEEC013DDE9A8007D7795 /* ANGram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANGram.cpp; sourceTree = "<group>"; };
+		653AEEC113DDE9A8007D7795 /* APacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = APacket.cpp; sourceTree = "<group>"; };
+		653AEEC213DDE9A8007D7795 /* ARec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARec.cpp; sourceTree = "<group>"; };
+		653AEEC313DDE9A8007D7795 /* AResource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AResource.cpp; sourceTree = "<group>"; };
+		653AEEC413DDE9A8007D7795 /* ARMan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARMan.cpp; sourceTree = "<group>"; };
+		653AEEC513DDE9A8007D7795 /* ASource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASource.cpp; sourceTree = "<group>"; };
+		653AEEC613DDE9A8007D7795 /* ASplash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASplash.cpp; sourceTree = "<group>"; };
+		653AEEC713DDE9A8007D7795 /* ASyn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASyn.cpp; sourceTree = "<group>"; };
+		653AEEC813DDE9A8007D7795 /* ATee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATee.cpp; sourceTree = "<group>"; };
+		653AEEC913DDE9A8007D7795 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		659B691413CEE0BB0088B9D9 /* Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659B6A1213CF03900088B9D9 /* Base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base.png; path = Resources/Base.png; sourceTree = "<group>"; };
 		659B6A1313CF03900088B9D9 /* Base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Base@2x.png"; path = "Resources/Base@2x.png"; sourceTree = "<group>"; };
@@ -268,44 +325,6 @@
 		65A1007113CC9C2E00A0F59F /* libHTKLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTKLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1007513CC9C4C00A0F59F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		65A100B313CC9EEE00A0F59F /* libm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libm.dylib; path = usr/lib/libm.dylib; sourceTree = SDKROOT; };
-		65A1027513CCA14300A0F59F /* ATee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATee.h; sourceTree = "<group>"; };
-		65A1027613CCA14300A0F59F /* ATee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATee.cpp; sourceTree = "<group>"; };
-		65A1027713CCA14300A0F59F /* ASyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASyn.h; sourceTree = "<group>"; };
-		65A1027813CCA14300A0F59F /* ASyn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASyn.cpp; sourceTree = "<group>"; };
-		65A1027913CCA14300A0F59F /* ASplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASplash.h; sourceTree = "<group>"; };
-		65A1027A13CCA14300A0F59F /* ASplash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASplash.cpp; sourceTree = "<group>"; };
-		65A1027B13CCA14300A0F59F /* ASource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASource.h; sourceTree = "<group>"; };
-		65A1027C13CCA14300A0F59F /* ASource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASource.cpp; sourceTree = "<group>"; };
-		65A1027D13CCA14300A0F59F /* ARMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARMan.h; sourceTree = "<group>"; };
-		65A1027E13CCA14300A0F59F /* ARMan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARMan.cpp; sourceTree = "<group>"; };
-		65A1027F13CCA14300A0F59F /* AResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AResource.h; sourceTree = "<group>"; };
-		65A1028013CCA14300A0F59F /* AResource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AResource.cpp; sourceTree = "<group>"; };
-		65A1028113CCA14300A0F59F /* ARec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARec.h; sourceTree = "<group>"; };
-		65A1028213CCA14300A0F59F /* ARec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARec.cpp; sourceTree = "<group>"; };
-		65A1028313CCA14300A0F59F /* APacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APacket.h; sourceTree = "<group>"; };
-		65A1028413CCA14300A0F59F /* APacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = APacket.cpp; sourceTree = "<group>"; };
-		65A1028513CCA14300A0F59F /* ANGram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGram.h; sourceTree = "<group>"; };
-		65A1028613CCA14300A0F59F /* ANGram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANGram.cpp; sourceTree = "<group>"; };
-		65A1028713CCA14300A0F59F /* AMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMonitor.h; sourceTree = "<group>"; };
-		65A1028813CCA14300A0F59F /* AMonitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AMonitor.cpp; sourceTree = "<group>"; };
-		65A1028913CCA14300A0F59F /* ALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALog.h; sourceTree = "<group>"; };
-		65A1028A13CCA14300A0F59F /* ALog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ALog.cpp; sourceTree = "<group>"; };
-		65A1028B13CCA14300A0F59F /* AIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIO.h; sourceTree = "<group>"; };
-		65A1028C13CCA14300A0F59F /* AIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AIO.cpp; sourceTree = "<group>"; };
-		65A1028D13CCA14300A0F59F /* AHTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHTK.h; sourceTree = "<group>"; };
-		65A1028E13CCA14300A0F59F /* AHTK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AHTK.cpp; sourceTree = "<group>"; };
-		65A1028F13CCA14300A0F59F /* AHmms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHmms.h; sourceTree = "<group>"; };
-		65A1029013CCA14300A0F59F /* AHmms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AHmms.cpp; sourceTree = "<group>"; };
-		65A1029113CCA14300A0F59F /* AGram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGram.h; sourceTree = "<group>"; };
-		65A1029213CCA14300A0F59F /* AGram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AGram.cpp; sourceTree = "<group>"; };
-		65A1029313CCA14300A0F59F /* ADict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADict.h; sourceTree = "<group>"; };
-		65A1029413CCA14300A0F59F /* ADict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADict.cpp; sourceTree = "<group>"; };
-		65A1029513CCA14300A0F59F /* AComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AComponent.h; sourceTree = "<group>"; };
-		65A1029613CCA14300A0F59F /* AComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AComponent.cpp; sourceTree = "<group>"; };
-		65A1029713CCA14300A0F59F /* ACode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACode.h; sourceTree = "<group>"; };
-		65A1029813CCA14300A0F59F /* ACode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ACode.cpp; sourceTree = "<group>"; };
-		65A1029913CCA14300A0F59F /* ABuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABuffer.h; sourceTree = "<group>"; };
-		65A1029A13CCA14300A0F59F /* ABuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABuffer.cpp; sourceTree = "<group>"; };
 		65A102B213CCA14D00A0F59F /* libATKLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libATKLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1030913CCA42300A0F59F /* us_aswd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = us_aswd.c; sourceTree = "<group>"; };
 		65A1030B13CCA42300A0F59F /* us_dur_stats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = us_dur_stats.c; sourceTree = "<group>"; };
@@ -437,7 +456,6 @@
 		65A104EE13CCA72500A0F59F /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		65A104EF13CCA72F00A0F59F /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		65A104F013CCA73D00A0F59F /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		65A104F113CCA74600A0F59F /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		65A1057D13CCAB2700A0F59F /* libCMU_US_KAL16.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCMU_US_KAL16.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1FFD213CC9BE300A0F59F /* HAdapt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HAdapt.c; sourceTree = "<group>"; };
 		65A1FFD313CC9BE300A0F59F /* HAdapt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAdapt.h; sourceTree = "<group>"; };
@@ -616,6 +634,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		653AEE5513DDE945007D7795 /* ATKLib */ = {
+			isa = PBXGroup;
+			children = (
+				653AEEA313DDE9A8007D7795 /* ABuffer.h */,
+				653AEEA413DDE9A8007D7795 /* ACode.h */,
+				653AEEA513DDE9A8007D7795 /* AComponent.h */,
+				653AEEA613DDE9A8007D7795 /* ADict.h */,
+				653AEEA713DDE9A8007D7795 /* AGram.h */,
+				653AEEA813DDE9A8007D7795 /* AHmms.h */,
+				653AEEA913DDE9A8007D7795 /* AHTK.h */,
+				653AEEAA13DDE9A8007D7795 /* AIO.h */,
+				653AEEAB13DDE9A8007D7795 /* ALog.h */,
+				653AEEAC13DDE9A8007D7795 /* AMonitor.h */,
+				653AEEAD13DDE9A8007D7795 /* ANGram.h */,
+				653AEEAE13DDE9A8007D7795 /* APacket.h */,
+				653AEEAF13DDE9A8007D7795 /* ARec.h */,
+				653AEEB013DDE9A8007D7795 /* AResource.h */,
+				653AEEB113DDE9A8007D7795 /* ARMan.h */,
+				653AEEB213DDE9A8007D7795 /* ASource.h */,
+				653AEEB313DDE9A8007D7795 /* ASplash.h */,
+				653AEEB413DDE9A8007D7795 /* ASyn.h */,
+				653AEEB513DDE9A8007D7795 /* ATee.h */,
+				653AEEB613DDE9A8007D7795 /* ABuffer.cpp */,
+				653AEEB713DDE9A8007D7795 /* ACode.cpp */,
+				653AEEB813DDE9A8007D7795 /* AComponent.cpp */,
+				653AEEB913DDE9A8007D7795 /* ADict.cpp */,
+				653AEEBA13DDE9A8007D7795 /* AGram.cpp */,
+				653AEEBB13DDE9A8007D7795 /* AHmms.cpp */,
+				653AEEBC13DDE9A8007D7795 /* AHTK.cpp */,
+				653AEEBD13DDE9A8007D7795 /* AIO.cpp */,
+				653AEEBE13DDE9A8007D7795 /* ALog.cpp */,
+				653AEEBF13DDE9A8007D7795 /* AMonitor.cpp */,
+				653AEEC013DDE9A8007D7795 /* ANGram.cpp */,
+				653AEEC113DDE9A8007D7795 /* APacket.cpp */,
+				653AEEC213DDE9A8007D7795 /* ARec.cpp */,
+				653AEEC313DDE9A8007D7795 /* AResource.cpp */,
+				653AEEC413DDE9A8007D7795 /* ARMan.cpp */,
+				653AEEC513DDE9A8007D7795 /* ASource.cpp */,
+				653AEEC613DDE9A8007D7795 /* ASplash.cpp */,
+				653AEEC713DDE9A8007D7795 /* ASyn.cpp */,
+				653AEEC813DDE9A8007D7795 /* ATee.cpp */,
+				653AEEC913DDE9A8007D7795 /* Readme.txt */,
+			);
+			name = ATKLib;
+			path = ../ATKLib;
+			sourceTree = "<group>";
+		};
 		659B69F213CEFEFD0088B9D9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -636,53 +701,6 @@
 			);
 			name = Images;
 			sourceTree = "<group>";
-		};
-		65A100E913CCA10800A0F59F /* ATKLib */ = {
-			isa = PBXGroup;
-			children = (
-				65A104F113CCA74600A0F59F /* Readme.txt */,
-				65A1027513CCA14300A0F59F /* ATee.h */,
-				65A1027613CCA14300A0F59F /* ATee.cpp */,
-				65A1027713CCA14300A0F59F /* ASyn.h */,
-				65A1027813CCA14300A0F59F /* ASyn.cpp */,
-				65A1027913CCA14300A0F59F /* ASplash.h */,
-				65A1027A13CCA14300A0F59F /* ASplash.cpp */,
-				65A1027B13CCA14300A0F59F /* ASource.h */,
-				65A1027C13CCA14300A0F59F /* ASource.cpp */,
-				65A1027D13CCA14300A0F59F /* ARMan.h */,
-				65A1027E13CCA14300A0F59F /* ARMan.cpp */,
-				65A1027F13CCA14300A0F59F /* AResource.h */,
-				65A1028013CCA14300A0F59F /* AResource.cpp */,
-				65A1028113CCA14300A0F59F /* ARec.h */,
-				65A1028213CCA14300A0F59F /* ARec.cpp */,
-				65A1028313CCA14300A0F59F /* APacket.h */,
-				65A1028413CCA14300A0F59F /* APacket.cpp */,
-				65A1028513CCA14300A0F59F /* ANGram.h */,
-				65A1028613CCA14300A0F59F /* ANGram.cpp */,
-				65A1028713CCA14300A0F59F /* AMonitor.h */,
-				65A1028813CCA14300A0F59F /* AMonitor.cpp */,
-				65A1028913CCA14300A0F59F /* ALog.h */,
-				65A1028A13CCA14300A0F59F /* ALog.cpp */,
-				65A1028B13CCA14300A0F59F /* AIO.h */,
-				65A1028C13CCA14300A0F59F /* AIO.cpp */,
-				65A1028D13CCA14300A0F59F /* AHTK.h */,
-				65A1028E13CCA14300A0F59F /* AHTK.cpp */,
-				65A1028F13CCA14300A0F59F /* AHmms.h */,
-				65A1029013CCA14300A0F59F /* AHmms.cpp */,
-				65A1029113CCA14300A0F59F /* AGram.h */,
-				65A1029213CCA14300A0F59F /* AGram.cpp */,
-				65A1029313CCA14300A0F59F /* ADict.h */,
-				65A1029413CCA14300A0F59F /* ADict.cpp */,
-				65A1029513CCA14300A0F59F /* AComponent.h */,
-				65A1029613CCA14300A0F59F /* AComponent.cpp */,
-				65A1029713CCA14300A0F59F /* ACode.h */,
-				65A1029813CCA14300A0F59F /* ACode.cpp */,
-				65A1029913CCA14300A0F59F /* ABuffer.h */,
-				65A1029A13CCA14300A0F59F /* ABuffer.cpp */,
-			);
-			name = ATKLib;
-			path = "/Users/daniel/Dropbox/University/研究室/HTK:ATK/atk160/ATKLib";
-			sourceTree = "<absolute>";
 		};
 		65A1030513CCA42300A0F59F /* US_English */ = {
 			isa = PBXGroup;
@@ -858,8 +876,8 @@
 		65A1FFCC13CC9BA400A0F59F /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				653AEE5513DDE945007D7795 /* ATKLib */,
 				65A1FFD013CC9BE300A0F59F /* HTKLib */,
-				65A100E913CCA10800A0F59F /* ATKLib */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -957,6 +975,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653AEEF013DDE9C9007D7795 /* ABuffer.h in Headers */,
+				653AEEF113DDE9C9007D7795 /* ACode.h in Headers */,
+				653AEEF213DDE9C9007D7795 /* AComponent.h in Headers */,
+				653AEEF313DDE9C9007D7795 /* ADict.h in Headers */,
+				653AEEF413DDE9C9007D7795 /* AGram.h in Headers */,
+				653AEEF513DDE9C9007D7795 /* AHmms.h in Headers */,
+				653AEEF613DDE9C9007D7795 /* AHTK.h in Headers */,
+				653AEEF713DDE9C9007D7795 /* AIO.h in Headers */,
+				653AEEF813DDE9C9007D7795 /* ALog.h in Headers */,
+				653AEEF913DDE9C9007D7795 /* AMonitor.h in Headers */,
+				653AEEFA13DDE9C9007D7795 /* ANGram.h in Headers */,
+				653AEEFB13DDE9C9007D7795 /* APacket.h in Headers */,
+				653AEEFC13DDE9C9007D7795 /* ARec.h in Headers */,
+				653AEEFD13DDE9C9007D7795 /* AResource.h in Headers */,
+				653AEEFE13DDE9C9007D7795 /* ARMan.h in Headers */,
+				653AEEFF13DDE9C9007D7795 /* ASource.h in Headers */,
+				653AEF0013DDE9C9007D7795 /* ASplash.h in Headers */,
+				653AEF0113DDE9C9007D7795 /* ASyn.h in Headers */,
+				653AEF0213DDE9C9007D7795 /* ATee.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1121,8 +1158,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ATK" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -1227,25 +1267,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A102C813CCA16E00A0F59F /* ATee.cpp in Sources */,
-				65A102C913CCA16E00A0F59F /* ASyn.cpp in Sources */,
-				65A102CA13CCA16E00A0F59F /* ASplash.cpp in Sources */,
-				65A102CB13CCA16E00A0F59F /* ASource.cpp in Sources */,
-				65A102CC13CCA16E00A0F59F /* ARMan.cpp in Sources */,
-				65A102CD13CCA16E00A0F59F /* AResource.cpp in Sources */,
-				65A102CE13CCA16E00A0F59F /* ARec.cpp in Sources */,
-				65A102CF13CCA16E00A0F59F /* APacket.cpp in Sources */,
-				65A102D013CCA16E00A0F59F /* ANGram.cpp in Sources */,
-				65A102D113CCA16E00A0F59F /* AMonitor.cpp in Sources */,
-				65A102D213CCA16E00A0F59F /* ALog.cpp in Sources */,
-				65A102D313CCA16E00A0F59F /* AIO.cpp in Sources */,
-				65A102D413CCA16E00A0F59F /* AHTK.cpp in Sources */,
-				65A102D513CCA16E00A0F59F /* AHmms.cpp in Sources */,
-				65A102D613CCA16E00A0F59F /* AGram.cpp in Sources */,
-				65A102D713CCA16E00A0F59F /* ADict.cpp in Sources */,
-				65A102D813CCA16E00A0F59F /* AComponent.cpp in Sources */,
-				65A102D913CCA16E00A0F59F /* ACode.cpp in Sources */,
-				65A102DA13CCA16E00A0F59F /* ABuffer.cpp in Sources */,
+				653AEF0313DDE9D1007D7795 /* ABuffer.cpp in Sources */,
+				653AEF0413DDE9D1007D7795 /* ACode.cpp in Sources */,
+				653AEF0513DDE9D1007D7795 /* AComponent.cpp in Sources */,
+				653AEF0613DDE9D1007D7795 /* ADict.cpp in Sources */,
+				653AEF0713DDE9D1007D7795 /* AGram.cpp in Sources */,
+				653AEF0813DDE9D1007D7795 /* AHmms.cpp in Sources */,
+				653AEF0913DDE9D1007D7795 /* AHTK.cpp in Sources */,
+				653AEF0A13DDE9D1007D7795 /* AIO.cpp in Sources */,
+				653AEF0B13DDE9D1007D7795 /* ALog.cpp in Sources */,
+				653AEF0C13DDE9D1007D7795 /* AMonitor.cpp in Sources */,
+				653AEF0D13DDE9D1007D7795 /* ANGram.cpp in Sources */,
+				653AEF0E13DDE9D1007D7795 /* APacket.cpp in Sources */,
+				653AEF0F13DDE9D1007D7795 /* ARec.cpp in Sources */,
+				653AEF1013DDE9D1007D7795 /* AResource.cpp in Sources */,
+				653AEF1113DDE9D1007D7795 /* ARMan.cpp in Sources */,
+				653AEF1213DDE9D1007D7795 /* ASource.cpp in Sources */,
+				653AEF1313DDE9D1007D7795 /* ASplash.cpp in Sources */,
+				653AEF1413DDE9D1007D7795 /* ASyn.cpp in Sources */,
+				653AEF1513DDE9D1007D7795 /* ATee.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,7 +1374,6 @@
 				65A104CB13CCA69D00A0F59F /* us_text.c in Sources */,
 				65A104CC13CCA69D00A0F59F /* usenglish.c in Sources */,
 				65A104CD13CCA69D00A0F59F /* us_durz_cart.c in Sources */,
-				65A104EA13CCA6EB00A0F59F /* SSDS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1393,7 +1432,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ATK_Prefix.pch;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ATK-Info.plist";
 				PRODUCT_NAME = Pizza;
 			};
@@ -1407,7 +1446,7 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ATK_Prefix.pch;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ATK-Info.plist";
 				PRODUCT_NAME = Pizza;
 				VALIDATE_PRODUCT = YES;
@@ -1421,10 +1460,10 @@
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
@@ -1437,7 +1476,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1445,8 +1483,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = HTKLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1461,7 +1499,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1469,8 +1506,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = ATKLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1485,7 +1522,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1493,8 +1529,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = CMU_Lexicon;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1509,7 +1545,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1517,8 +1552,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = CMU_US_KAL16;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1533,7 +1568,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1541,8 +1575,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = SYNLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1557,7 +1591,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1565,8 +1598,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = US_English;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1582,7 +1615,7 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ATK_Prefix.pch;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ATK-Info.plist";
 				PRODUCT_NAME = Pizza;
 				VALIDATE_PRODUCT = YES;
@@ -1604,8 +1637,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = HTKLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1619,7 +1652,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1627,8 +1659,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = HTKLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1651,8 +1683,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = ATKLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1666,7 +1698,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1674,8 +1705,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = ATKLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1698,8 +1729,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = CMU_Lexicon;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1713,7 +1744,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1721,8 +1751,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = CMU_Lexicon;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1745,8 +1775,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = SYNLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1760,7 +1790,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1768,8 +1797,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = SYNLib;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1792,8 +1821,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = US_English;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1807,7 +1836,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1815,8 +1843,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = US_English;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1839,8 +1867,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = CMU_US_KAL16;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1854,7 +1882,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = ansi;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_REENTRANT,
 					_cplusplus,
@@ -1862,8 +1889,8 @@
 					UNIX,
 					NOGRAFIX,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				PREBINDING = NO;
 				PRODUCT_NAME = CMU_US_KAL16;
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-write-strings";
@@ -1877,9 +1904,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1890,10 +1917,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;

@@ -30,12 +30,12 @@
 
 class ABuffer;
 
-class ABufferCallback {
+class ABufferListener {
   public:
     virtual void ABufferReceivedPacket(ABuffer &buffer, APacket &packet) = 0;
 };
 
-typedef list<ABufferCallback *> ABufferCallbackList;
+typedef list<ABufferListener *> ABufferListenerList;
 
 struct ABufferEventMsg {
   HThread thread;
@@ -78,8 +78,8 @@ public:
   void RequestBufferEvents(unsigned char id);
   // Request calling thread buffer events, with ev.c = id
 
-  void AddCallback(ABufferCallback *callback);
-  void RemoveCallback(ABufferCallback *callback);
+  void AddListener(ABufferListener *listener);
+  void RemoveListener(ABufferListener *listener);
   
   string GetName();
   
@@ -94,7 +94,7 @@ private:
   vector<ABufferEventMsg> bevList;  // list of event requests
   int evCount;                  // num events sent so far
   void SendBufferEvents();      // send requested buffer events
-  ABufferCallbackList callbackList;
+  ABufferListenerList listenerList;
 };
 
 #endif
