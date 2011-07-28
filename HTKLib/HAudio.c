@@ -174,7 +174,9 @@ typedef struct _AudioIn {
 #ifdef __APPLE__
 	AudioQueueRef audioQueue;
 	AudioStreamBasicDescription audioFormatDescription;
-   coreAudioBuf * current;
+  coreAudioBuf * current;
+  short packetBuffer[WAVEPACKETSIZE];
+  int packetBufferLength;
 #else
   snd_pcm_t *pcm_handle;
   char *pcm_name;
@@ -664,18 +666,40 @@ void CoreAudioQueueInputCallback (void                            *inUserData,
 									   UInt32                              inNumberPacketDescriptions,
 									   const AudioStreamPacketDescription  *inPacketDescs
 									   )
-{
+{   
    OSStatus st;
    AudioIn a = (AudioIn)inUserData;
-/*	NSLog(CFSTR("Recorded %d bytes"), inBuffer->mAudioDataByteSize); */
-   if (a->devStat==ADS_SAMPLING) {
+   short *data = inBuffer->mAudioData;
+   int dataLength = inBuffer->mAudioDataByteSize / sizeof(short);
+   
+   if (a->devStat!=ADS_SAMPLING) return;
+   
+   if (a->packetBufferLength == 0 && dataLength == WAVEPACKETSIZE) {
       HAudioLock();
       StoreInputBlok(a, (short *)inBuffer->mAudioData);
-   	st = AudioQueueEnqueueBuffer(inAQ, inBuffer, 0, NULL);
-   	if (st) HError(6006,"CoreAudioQueueInputCallback: Error in AudioQueueEnqueueBuffer\n", st);
-   	    pthread_cond_signal(&(a->cond));
+      HAudioUnlock();
+   } else {
+      HAudioLock();
+      do {
+         int packetsToCopy = MIN(WAVEPACKETSIZE - a->packetBufferLength, dataLength);
+         bcopy(data, a->packetBuffer+a->packetBufferLength, packetsToCopy * sizeof(short));
+         
+         data += packetsToCopy;
+         dataLength -= packetsToCopy;
+         a->packetBufferLength += packetsToCopy;
+         
+         if (a->packetBufferLength == WAVEPACKETSIZE) {
+            StoreInputBlok(a, (short *)a->packetBuffer);
+            a->packetBufferLength = 0;
+         }
+         
+      } while (dataLength > 0);
       HAudioUnlock();
    }
+   
+   st = AudioQueueEnqueueBuffer(inAQ, inBuffer, 0, NULL);
+   if (st) HError(6006,"CoreAudioQueueInputCallback: Error in AudioQueueEnqueueBuffer\n", st);
+   pthread_cond_signal(&(a->cond));
 }
 
 #else

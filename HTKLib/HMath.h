@@ -52,6 +52,7 @@ extern "C" {
 #define LSMALL (-0.5E10)   /* log values < LSMALL are set to LZERO */
 #define MINEARG (-708.3)   /* lowest exp() arg  = log(MINLARG) */
 #define MINLARG 2.45E-308  /* lowest log() arg  = exp(MINEARG) */
+#define MIN(X,Y) ((X) < (Y) ? (X) : (Y))
 
 /* NOTE: On some machines it may be necessary to reduce the
          values of MINEARG and MINLARG

@@ -459,7 +459,7 @@
 		65A1057D13CCAB2700A0F59F /* libCMU_US_KAL16.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCMU_US_KAL16.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1FFD213CC9BE300A0F59F /* HAdapt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HAdapt.c; sourceTree = "<group>"; };
 		65A1FFD313CC9BE300A0F59F /* HAdapt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAdapt.h; sourceTree = "<group>"; };
-		65A1FFD513CC9BE300A0F59F /* HAudio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HAudio.c; sourceTree = "<group>"; };
+		65A1FFD513CC9BE300A0F59F /* HAudio.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.c.c; path = HAudio.c; sourceTree = "<group>"; tabWidth = 3; };
 		65A1FFD613CC9BE300A0F59F /* HAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAudio.h; sourceTree = "<group>"; };
 		65A1FFD813CC9BE300A0F59F /* HDict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HDict.c; sourceTree = "<group>"; };
 		65A1FFD913CC9BE300A0F59F /* HDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDict.h; sourceTree = "<group>"; };
