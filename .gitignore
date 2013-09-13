@@ -1,0 +1,4 @@
+*.o
+*.xcuserdatad
+xcuserdata
+.DS_Store
