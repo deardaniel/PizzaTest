@@ -179,6 +179,7 @@
 		65A1058D13CCABFC00A0F59F /* libSYNLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A1044113CCA5A700A0F59F /* libSYNLib.a */; };
 		65A1059213CCAC1B00A0F59F /* libCMU_Lexicon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A103F913CCA4AD00A0F59F /* libCMU_Lexicon.a */; };
 		65A105A013CCAC3D00A0F59F /* libUS_English.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A104BB13CCA68100A0F59F /* libUS_English.a */; };
+		65D04EDF17E3708B00C9AF84 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D04EDE17E3708B00C9AF84 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -483,6 +484,7 @@
 		65A1FFFB13CC9BE400A0F59F /* HNBest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNBest.h; sourceTree = "<group>"; };
 		65A1FFFD13CC9BE400A0F59F /* HNet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HNet.c; sourceTree = "<group>"; };
 		65A1FFFE13CC9BE400A0F59F /* HNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNet.h; sourceTree = "<group>"; };
+		65D04EDE17E3708B00C9AF84 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ATK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ATK-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -580,6 +582,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				65D04EDE17E3708B00C9AF84 /* Default-568h@2x.png */,
 				65A1FFCC13CC9BA400A0F59F /* Libraries */,
 				65A1FFCD13CC9BA900A0F59F /* TTS */,
 				65A1FFCE13CC9BB000A0F59F /* ATKTests */,
@@ -1202,6 +1205,7 @@
 				659B6A2113CF039F0088B9D9 /* Base@2x.png in Resources */,
 				659B6A2213CF03A00088B9D9 /* Cheese.png in Resources */,
 				659B6A2313CF03A00088B9D9 /* Cheese@2x.png in Resources */,
+				65D04EDF17E3708B00C9AF84 /* Default-568h@2x.png in Resources */,
 				659B6A2413CF03A10088B9D9 /* Ham.png in Resources */,
 				659B6A2513CF03A20088B9D9 /* Ham@2x.png in Resources */,
 				659B6A2613CF03A20088B9D9 /* Pepperoni.png in Resources */,
