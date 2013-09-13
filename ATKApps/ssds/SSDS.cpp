@@ -444,7 +444,9 @@ int main(int argc, char *argv[])
       for (int i=1; i<=n; i++)
          printf("  %d. %s\n",i,HRErrorGetMess(i));
    }
+#ifdef __APPLE__
 	CFRelease(confPath);
+#endif
 
    return 0;
 }
