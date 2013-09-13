@@ -36,7 +36,7 @@ depend:
 
 
 AVite :  AVite.o
-	$(CXX) AVite.o $(ALIBS) $(HLIBS) -lpthread -lm -lX11  -L/usr/X11R6/lib  $(HTKLF)
+	$(CXX) AVite.o $(ALIBS) $(HLIBS) -lpthread -lm -lX11  -L/usr/X11R6/lib  $(HTKLF) -framework Carbon -framework AudioToolbox -framework CoreAudio 
 	mv a.out AVite
 
 
