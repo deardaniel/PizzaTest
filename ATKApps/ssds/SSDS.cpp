@@ -421,7 +421,6 @@ void *startSSDS(void *)
 	chdir(CFStringGetCStringPtr(bundlePath, CFStringGetFastestEncoding(bundlePath)));
 	sprintf(confPath, "%s/Test/ssds.cfg", CFStringGetCStringPtr(bundlePath, CFStringGetFastestEncoding(bundlePath)));
 
-	printf("CWD: %s\n", confPath);
 	int argc = 3;
 	const char *argv[] = { "SSDS", "-C", "ssds.cfg" };
 #else
